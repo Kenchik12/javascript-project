@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #f0f0f0;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+}
+figure {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  transition: border 0.3s, outline 0.3s;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+figcaption {
+  text-align: center;
+  margin-top: 10px;
+}
